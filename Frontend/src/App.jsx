@@ -77,7 +77,7 @@ function App() {
     <Container className="mt-4">
       <h2 className="text-center mb-4">Students</h2>
 
-      {/* Form */}
+      
       <Form onSubmit={handleSubmit}>
         <Row>
           <Col md={3}>
@@ -121,7 +121,7 @@ function App() {
         </Row>
       </Form>
 
-      {/* Table */}
+      
       <Table striped bordered hover className="mt-4">
         <thead>
           <tr>
